@@ -1,6 +1,6 @@
 # AI-in-Mobile-Robotics
-The goal of this project is to build an algorithm to distinguish two different object: a sphere and a cube.  
-The robot must go towards the sphere and ignore the cube.  
+The goal of this project is to build an algorithm to distinguish between two different object: a sphere and a cube, at first in a unity environment, then in a real world scenario.  
+The robot must go towards the sphere and ignore the cube and stop itself at about 20cm of distance. 
 The two objects (or more) can be also moved during the run of the algorithm.  
 
 ## Algorithm
@@ -8,7 +8,7 @@ Shape identification is performed using two RANSAC regressor, one for the sphere
 
 ## Trial
 The most significant issue we encountered was to precisely distinguish the two different object while they have the same size. (diameter of sphere = side of the cube)  
-So we have to keep the two objects with different sizes (in our case, sphere bigger than the cube).  
+So we had to keep the two objects with different sizes (in our case, sphere bigger than the cube).  
 In this manner we managed to recognize and distinguish correctly the two shapes.  
 
 ## To start
