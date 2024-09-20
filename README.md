@@ -3,6 +3,13 @@ The goal of this project is to build an algorithm to distinguish between two dif
 The robot must go towards the sphere and ignore the cube and stop itself at about 20cm of distance.
 The two objects (or more) can be also moved during the run of the algorithm.
 
+## Requirements
+\textbf{Unity} and \textbf{ROS2} are required, we suggest to follow this repository to install and configure the environment https://gitlab.com/TrottiFrancesco/mobile_robotics_lab
+
+## Files usage
+<b>project_exam_grid.unity</b> and <b>project_exam_grid.unity.meta</b>, are the the arena files configuration, containing the agent and the obstacles
+<b>plan_and_exec.py</b> is the core program to run
+
 ## Algorithm
 Shape identification is performed using two RANSAC regressor, one for the sphere, one for the cube.
 Random sample consensus, RANSAC is an iterative algorithm for the robust estimation of parameters from a subset of inliers from the complete data set.
