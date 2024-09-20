@@ -4,10 +4,11 @@ The robot must go towards the sphere and ignore the cube and stop itself at abou
 The two objects (or more) can be also moved during the run of the algorithm.
 
 ## Requirements
-\textbf{Unity} and \textbf{ROS2} are required, we suggest to follow this repository to install and configure the environment https://gitlab.com/TrottiFrancesco/mobile_robotics_lab
+<b>Unity</b> and<b>ROS2</b> are required, we suggest to follow this repository to install and configure the environment  
+ https://gitlab.com/TrottiFrancesco/mobile_robotics_lab
 
 ## Files usage
-<b>project_exam_grid.unity</b> and <b>project_exam_grid.unity.meta</b>, are the the arena files configuration, containing the agent and the obstacles
+<b>turtlebot3.unity</b> and <b>turtlebot3.unity.meta</b>, are the the arena files configuration, containing the agent and the obstacles
 <b>plan_and_exec.py</b> is the core program to run
 
 ## Algorithm
