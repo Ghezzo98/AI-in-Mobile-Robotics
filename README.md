@@ -8,15 +8,15 @@ The two objects (or more) can be also moved during the run of the algorithm.
  https://gitlab.com/TrottiFrancesco/mobile_robotics_lab
 
 ## Files usage
-<li><b>turtlebot3.unity</b> and <b>turtlebot3.unity.meta</b> are the the arena files configuration, containing the agent and the obstacles
-<li><b>follow_shape.py</b> is the core program to run
+<li><b>turtlebot3.unity</b> and <b>turtlebot3.unity.meta</b> are the the arena files configuration, containing the agent and the obstacles.
+<li><b>follow_shape.py</b> is the core program to run.
 
 ## Algorithm
 Shape identification is performed using two RANSAC regressor, one for the sphere, one for the cube.
 Random sample consensus, RANSAC is an iterative algorithm for the robust estimation of parameters from a subset of inliers from the complete data set.
 It estimates a mathematical model from a data set that contains outliers. The RANSAC algorithm works by identifying the outliers in a data set and estimating the desired model using data that does not contain outliers.
 
-In our project, we used RANSAC to recognize spheres or cubes, fitting the Lidar datas on the two different models learned by the alghoritm
+In our project, we used RANSAC to recognize spheres or cubes, fitting the Lidar datas on the two different models learned by the alghoritm.
 
 ##### Linear regression without RANSAC
 ![alt text](https://pyihub.org/wp-content/uploads/2023/12/linear-regression-vs.png)
@@ -26,7 +26,7 @@ In our project, we used RANSAC to recognize spheres or cubes, fitting the Lidar 
 
 ## Trial
 The most significant issue we encountered was to precisely distinguish the two different object while they have the same size. (diameter of sphere = side of the cube)
-So we had to keep the two objects with different sizes (in our case, cube bigger than the sphere).
+So we had to keep the two objects with different sizes (in our case, the cube is bigger than the sphere).
 In this manner we managed to recognize and distinguish correctly the two shapes.
 
 ### How it works
