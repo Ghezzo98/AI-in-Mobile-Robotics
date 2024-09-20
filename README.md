@@ -8,8 +8,8 @@ The two objects (or more) can be also moved during the run of the algorithm.
  https://gitlab.com/TrottiFrancesco/mobile_robotics_lab
 
 ## Files usage
-<b>turtlebot3.unity</b> and <b>turtlebot3.unity.meta</b>, are the the arena files configuration, containing the agent and the obstacles
-<b>plan_and_exec.py</b> is the core program to run
+<b>turtlebot3.unity</b> and <b>turtlebot3.unity.meta</b> are the the arena files configuration, containing the agent and the obstacles
+<b>follow_shape.py</b> is the core program to run
 
 ## Algorithm
 Shape identification is performed using two RANSAC regressor, one for the sphere, one for the cube.
