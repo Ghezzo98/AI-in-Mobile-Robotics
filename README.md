@@ -18,7 +18,7 @@ In our project, we used RANSAC to recognize spheres or cubes, fitting the Lidar 
 
 ## Trial
 The most significant issue we encountered was to precisely distinguish the two different object while they have the same size. (diameter of sphere = side of the cube)
-So we had to keep the two objects with different sizes (in our case, sphere bigger than the cube).
+So we had to keep the two objects with different sizes (in our case, cube bigger than the sphere).
 In this manner we managed to recognize and distinguish correctly the two shapes.
 
 ### How it works
@@ -28,5 +28,5 @@ In the video above, we can see how the robot detects the sphere and follow it, t
 ## To start
 You need to replace the base "follow.py" from the lab sessions with our "follow_shape.py".
 Then build the workspace with "colcon build".
-Furthermore, you have to add a sphere object in the unity project, copiyng the cube and changing the shape of it.
+Furthermore, you have to add a sphere object in the unity project, copying the cube and changing the shape of it.
 In the end, run the same commands you would use for the "follow.py" execution.
