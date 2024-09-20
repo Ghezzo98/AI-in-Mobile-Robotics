@@ -4,7 +4,7 @@ The robot must go towards the sphere and ignore the cube and stop itself at abou
 The two objects (or more) can be also moved during the run of the algorithm.
 
 ## Requirements
-<b>Unity</b> and <b>ROS2</b> are required, we suggest to follow this repository to install and configure the environment  
+<b>Unity</b> and <b>ROS2</b> are required, we suggest to follow this repository to install and configure the environment:  
  https://gitlab.com/TrottiFrancesco/mobile_robotics_lab
 
 ## Files usage
